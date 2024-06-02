@@ -10,7 +10,7 @@ def index():
     return 'Hello from Flask!'
 
 if __name__ == '__main__':
-  app.run(debug=True)
+  app.run(debug=True, host='0.0.0.0.', port=81)
 
 token = '6897542653:AAGT0HgIgo428jKMgJggov0xi_8EejwMfw8'
 

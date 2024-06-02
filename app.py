@@ -38,7 +38,7 @@ def dend(message):
 
 start_button = [[
   InlineKeyboardButton("JOIN UPDATE CHANNEL", url="https://t.me/devx_coder"),
-  InlineKeyboardButton("SOURCE CODE", url="https://replit.com/@priyanshu999")
+  InlineKeyboardButton("DEVELOPER", url="https://replit.com/@priyanshu999")
 ]]
 
 bot.polling()
